@@ -1,7 +1,15 @@
 A repo for managing all my dotfiles
 
 # Windows
-* Yasb
-* Komorebi
+```
+Windows
+    └───.config
+        ├───fastfetch
+        │   └───assets
+        ├───Komorebi
+        ├───wezterm
+        └───yasbWindows
+```
 
 # Linux
+### Under Construction
