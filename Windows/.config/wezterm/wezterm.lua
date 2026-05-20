@@ -7,7 +7,7 @@ local config = wezterm.config_builder()
 -- Rendering Fix
 config.front_end = "OpenGL"
 
--- Force Powersheel as Default
+-- Force Powershell as Default
 config.default_prog = {'pwsh.exe'}
 
 -- Color Palette
@@ -42,6 +42,7 @@ config.window_padding = {
 
 -- Hide native title bar
 config.window_decorations = "RESIZE"
+config.use_resize_increments = true
 config.window_frame = {
     active_titlebar_bg = '#11111b',
     inactive_titlebar_bg = '#11111b',
@@ -53,7 +54,7 @@ config.window_frame = {
 
 -- or, changing the font size and color scheme.
 config.font = wezterm.font('FiraCode Nerd Font', {weight = 'Regular'})
-config.font_size = 12.0
+config.font_size = 14.0
 
 -- Cursor & Ui
 config.default_cursor_style = 'BlinkingBar'

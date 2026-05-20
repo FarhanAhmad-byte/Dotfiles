@@ -1,6 +1,9 @@
-A repo for managing all my dotfiles
+# Description
+
+A repo for managing my linux and windows dotfiles
 
 # Windows
+
 ```
 Windows
     └───.config
@@ -8,8 +11,13 @@ Windows
         │   └───assets
         ├───Komorebi
         ├───wezterm
-        └───yasbWindows
+        └───yasb
 ```
 
 # Linux
-### Under Construction
+
+Under Construction
+```
+Linux
+    └───.config
+```

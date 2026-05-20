@@ -16,7 +16,7 @@ function Create-Link($target, $linkPath) {
 
 # --- DEFINE YOUR LINKS HERE ---
 
-# Fastfetch
+# FastFetch
 Create-Link "$DOTFILES\fastfetch\config.jsonc" "$PATH\.config\fastfetch\config.jsonc"
 
 # WezTerm
